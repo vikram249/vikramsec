@@ -1297,6 +1297,7 @@ input, select, textarea {
     			border-radius: 50%;
     			overflow: hidden; /* Ensures the image stays inside the circle */
     			box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Soft glow */
+
 		}
 
 		#header .logo img {
@@ -1332,6 +1333,23 @@ input, select, textarea {
 				max-height: 40rem;
 				overflow: hidden;
 			}
+
+
+			/* CLI Hacker Animation */
+			#cli-output {
+    			    font-size: 1.2rem;
+    			    white-space: pre-wrap; /* Preserve formatting */
+                            text-align: left;
+                            width: 80%;
+                            margin: auto;
+                            padding: 20px;
+                            background: black;
+                            color: #33ff33; /* Green text for hacker feel */
+                            border: 2px solid #33ff33;
+                            font-family: "Courier New", monospace;
+                            text-shadow: 0 0 5px #33ff33;
+                            box-shadow: 0 0 10px #33ff33;
+           }
 
 				#header .content .inner > :last-child {
 					margin-bottom: 0;

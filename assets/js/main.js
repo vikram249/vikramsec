@@ -147,13 +147,13 @@
             if (index < hackerText[lineIndex].length) {
                 cliOutput.innerHTML += hackerText[lineIndex][index];
                 index++;
-                setTimeout(typeLine, 50); // Typing speed
+                setTimeout(typeLine, 100); // Typing speed
             } else {
                 cliOutput.innerHTML += "<br>";
                 lineIndex++;
                 index = 0;
                 if (lineIndex < hackerText.length) {
-                    setTimeout(typeLine, 500); // Delay before next line
+                    setTimeout(typeLine, 700); // Delay before next line
                 }
             }
         }
@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (index < lines.length) {
             cliOutput.innerHTML += lines[index] + "\n";
             index++;
-            setTimeout(typeLine, 1000); // Adjust speed if needed
+            setTimeout(typeLine, 1500); // Adjust speed if needed
         }
     }
 
